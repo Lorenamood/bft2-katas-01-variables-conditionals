@@ -40,11 +40,13 @@ describe('Comparaciones en Javascript', () => {
 describe("Operaciones aritméticas", () => {
     it("Usando suma", () => {
         const a = 10;
+        const b = 90;
 
         expect(a+b).to.equal(100);
     })
     it("Usando multiplicación", () => {
         const a = 10;
+        const b = 2;
 
         expect(a*b).to.equal(13);
     })
