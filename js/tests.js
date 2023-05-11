@@ -3,17 +3,18 @@ const expect = chai.expect
 
 describe('Las variables en Javascript', () => {
   it('pueden contener strings', () => {
-    // Añade la línea que falta
+    // Añade la línea que falta ******HECHO
     const a = "Javascript"
     expect(a).to.equal("Javascript");
   })
   it('pueden contener números', () => {
-    // Añade la línea que falta
-
+    // Añade la línea que falta  *******HECHO
+    const b = 14.94;
     expect(b).to.equal(14.64);
   })
   it('pueden contener booleanos', () => {
     // Añade la línea que falta
+    const c = false;
 
     expect(c).to.equal(false);
   })
@@ -23,6 +24,7 @@ describe('Comparaciones en Javascript', () => {
     it("usando ===", () => {
         const number = 20;
         //completa la asignación usando number y el comparador ===
+        const expresion = 20 === 10
 
         expect(expresion).to.equal(false)
     })
