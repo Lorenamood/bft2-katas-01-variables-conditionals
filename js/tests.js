@@ -46,8 +46,8 @@ describe("Operaciones aritméticas", () => {
         expect(a+b).to.equal(100);
     })
     it("Usando multiplicación", () => { // HECHO
-        const a = 10;
-        const b = 0.13;
+        const a = 13;
+        const b = 1;
 
         expect(a*b).to.equal(13);
     })
@@ -60,7 +60,7 @@ describe("Operaciones aritméticas", () => {
 })
 
 describe('Algebra booleana', () => {
-    it("Usando el operador AND (&&)", () => { // HECHO 
+    it("Usando el operador AND (&&)", () => { // HECHO pero revisar
         const a = true;
         //completa la asignación de b
         const b = true;
@@ -71,7 +71,9 @@ describe('Algebra booleana', () => {
     it("Usando el operador OR (||)", () => {
         const a = false;
         //completa la asignación de b
-
+        const b = false;
+        
+        
         const expression = a || b;
         expect(expression).to.equal(false);
     })
