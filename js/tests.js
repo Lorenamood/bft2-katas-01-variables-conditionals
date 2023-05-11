@@ -9,7 +9,7 @@ describe('Las variables en Javascript', () => {
   })
   it('pueden contener números', () => {
     // Añade la línea que falta  *******HECHO
-    const b = 14.94;
+    const b = 14.64;
     expect(b).to.equal(14.64);
   })
   it('pueden contener booleanos', () => {
@@ -46,12 +46,13 @@ describe("Operaciones aritméticas", () => {
     })
     it("Usando multiplicación", () => {
         const a = 10;
-        const b = 2;
+        const b = 0.13;
 
         expect(a*b).to.equal(13);
     })
     it("Usando división", () => {
         const a = 10;
+        const b = 4;
 
         expect(a/b).to.equal(2.5);
     })
